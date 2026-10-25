@@ -25,5 +25,10 @@
   ],
   "styles": [
     "styles/converter.css"
-  ]
+  ],
+  
+  "url": "https://github.com/kenpoh01/draw-steel-4e-converter",
+  "manifest": "https://raw.githubusercontent.com/kenpoh01/draw-steel-4e-converter/refs/heads/main/module.json",
+  "download": "https://github.com/kenpoh01/draw-steel-4e-converter/releases/download/v0.0.1/module.zip"
+  
 }
