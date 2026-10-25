@@ -2,7 +2,7 @@
   "id": "draw-steel-4e-converter",
   "title": "Draw Steel 4e Monster Converter",
   "description": "Converts D&D 4th Edition monster stat blocks (pasted text or scanned from an adventure PDF) into Draw Steel NPC actors.",
-  "version": "0.3.4",
+  "version": "1.0.0",
   "authors": [
     {
       "name": "Kenpoh, Claude"
