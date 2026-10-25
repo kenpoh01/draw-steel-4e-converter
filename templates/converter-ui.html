@@ -1,0 +1,47 @@
+<div class="window-content">
+  <form class="four-e-converter flexcol">
+    <h2>Convert 4e Monsters to Draw Steel</h2>
+    <p class="fec-intro">Paste 4e stat block text (Monster Manual or later layout), or choose an adventure PDF to scan it for monsters. Scanning can take a few minutes. Traps and hazards are skipped.</p>
+
+    <div class="fec-settings">
+    <div class="form-group">
+      <label for="fec-book">4e Source Book</label>
+      <input type="text" id="fec-book" value="{{sourceBook}}" />
+    </div>
+
+    <div class="form-group">
+      <label for="fec-folder">Folder Name</label>
+      <input type="text" id="fec-folder" placeholder="Optional: create or use folder" />
+    </div>
+
+    <div class="form-group">
+      <label for="fec-standard">4e standard monsters become</label>
+      <select id="fec-standard">
+        <option value="platoon" selected>Platoon</option>
+        <option value="horde">Horde</option>
+      </select>
+    </div>
+
+    </div>
+
+    <details id="fec-input" open>
+    <summary>Paste text or choose a PDF</summary>
+    <div class="form-group" id="fec-text-block">
+      <label for="fec-text">Raw Text</label>
+      <textarea id="fec-text" rows="5" placeholder="Paste 4e monster stat blocks here (name and level line through the ability scores)."></textarea>
+    </div>
+
+    <div class="form-group">
+      <label for="fec-file">Adventure PDF (or a .json / .txt file)</label>
+      <input type="file" id="fec-file" accept=".pdf,.json,.txt" />
+      <div class="fec-status-row"><span id="fec-status"></span> <button type="button" id="fec-cancel" style="display:none">Cancel</button></div>
+    </div>
+
+    <button type="button" id="fec-parse"><i class="fas fa-magnifying-glass"></i> Find Monsters</button>
+    </details>
+
+    <div id="fec-preview" class="fec-preview"></div>
+
+    <button type="button" id="fec-import" disabled><i class="fas fa-file-import"></i> Import Selected</button>
+  </form>
+</div>

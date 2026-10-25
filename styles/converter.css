@@ -1,0 +1,72 @@
+.four-e-converter-button {
+  margin: 4px 0;
+}
+
+.four-e-converter .form-group {
+  margin-bottom: 8px;
+  display: flex;
+  flex-direction: column;
+}
+
+.four-e-converter textarea {
+  width: 100%;
+  resize: vertical;
+  font-family: monospace;
+  box-sizing: border-box;
+}
+
+.four-e-converter-window .window-content { display: flex; flex-direction: column; overflow: hidden; }
+.four-e-converter { flex: 1 1 auto; min-height: 0; display: flex; flex-direction: column; }
+
+/* the list takes all the room left in the window, so flagged monsters and their editors are readable */
+.four-e-converter .fec-preview {
+  margin: 8px 0;
+  flex: 1 1 auto;
+  min-height: 260px;
+  overflow-y: auto;
+}
+
+.four-e-converter .fec-preview label {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  padding: 2px 0;
+}
+
+.four-e-converter .fec-preview .fec-meta {
+  opacity: 0.7;
+  font-size: 0.9em;
+}
+
+.four-e-converter .fec-preview .fec-warn {
+  color: #c88a00;
+}
+
+.four-e-converter .fec-status-row {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  margin-top: 4px;
+  font-size: 12px;
+}
+.four-e-converter .fec-status-row button {
+  width: auto;
+  line-height: 1.2;
+}
+
+.four-e-converter .fec-summary { margin: 0 0 6px; }
+.four-e-converter .fec-edit { font-size: 0.85em; cursor: pointer; margin-left: 24px; }
+.four-e-converter .fec-editor textarea { width: 100%; font-family: monospace; box-sizing: border-box; }
+.four-e-converter .fec-editor button { width: auto; margin: 2px 0 6px; }
+
+.four-e-converter .fec-hidden { display: none; }
+.four-e-converter .fec-filter { display: flex; gap: 6px; align-items: center; margin-bottom: 6px; }
+.four-e-converter .fec-row { padding: 2px 0; border-bottom: 1px solid rgba(128,128,128,0.2); }
+.four-e-converter .fec-editor textarea { min-height: 280px; }
+.four-e-converter #fec-text { min-height: 90px; }
+
+.four-e-converter h2 { margin: 0 0 4px; }
+.four-e-converter .fec-intro { margin: 0 0 6px; font-size: 12px; }
+.four-e-converter .fec-settings { display: flex; gap: 10px; }
+.four-e-converter .fec-settings .form-group { flex: 1 1 0; margin-bottom: 4px; }
+.four-e-converter details > summary { cursor: pointer; margin: 4px 0; }
