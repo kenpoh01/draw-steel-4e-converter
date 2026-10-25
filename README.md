@@ -5,7 +5,7 @@ After installing this module, you can choose a 4e product.  The module will scan
 This module is heavily dependant on how good the OCR pass was on the PDF and many errors can occur based on it's quality.
 The module tries to detect the names and kinds of abilities and convert them to a draw steel tiered damage roll.  These are based on the Draw Steel rules and math.
 
-lease note that A.I. in the form of Claude was used to generate the code for this module.
+Please note that A.I. in the form of Claude was used to generate the code for this module.
 
 
 This module needs to be manually installed from the FoundryVTT module installation tab.
